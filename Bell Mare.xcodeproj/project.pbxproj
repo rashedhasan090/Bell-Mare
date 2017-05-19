@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05867E91ECE8EAF00FFDEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05867E81ECE8EAF00FFDEDF /* AppDelegate.swift */; };
+		D05867EB1ECE8EAF00FFDEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05867EA1ECE8EAF00FFDEDF /* ViewController.swift */; };
+		D05867EE1ECE8EAF00FFDEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05867EC1ECE8EAF00FFDEDF /* Main.storyboard */; };
+		D05867F01ECE8EAF00FFDEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05867EF1ECE8EAF00FFDEDF /* Assets.xcassets */; };
+		D05867F31ECE8EAF00FFDEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05867F11ECE8EAF00FFDEDF /* LaunchScreen.storyboard */; };
+		D05867FE1ECE8EAF00FFDEDF /* Bell_MareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05867FD1ECE8EAF00FFDEDF /* Bell_MareTests.swift */; };
+		D05868091ECE8EB000FFDEDF /* Bell_MareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05868081ECE8EB000FFDEDF /* Bell_MareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D05867FA1ECE8EAF00FFDEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05867DD1ECE8EAF00FFDEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05867E41ECE8EAF00FFDEDF;
+			remoteInfo = "Bell Mare";
+		};
+		D05868051ECE8EB000FFDEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05867DD1ECE8EAF00FFDEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05867E41ECE8EAF00FFDEDF;
+			remoteInfo = "Bell Mare";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D05867E51ECE8EAF00FFDEDF /* Bell Mare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bell Mare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05867E81ECE8EAF00FFDEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D05867EA1ECE8EAF00FFDEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D05867ED1ECE8EAF00FFDEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D05867EF1ECE8EAF00FFDEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05867F21ECE8EAF00FFDEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D05867F41ECE8EAF00FFDEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05867F91ECE8EAF00FFDEDF /* Bell MareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bell MareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05867FD1ECE8EAF00FFDEDF /* Bell_MareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bell_MareTests.swift; sourceTree = "<group>"; };
+		D05867FF1ECE8EB000FFDEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05868041ECE8EB000FFDEDF /* Bell MareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bell MareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05868081ECE8EB000FFDEDF /* Bell_MareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bell_MareUITests.swift; sourceTree = "<group>"; };
+		D058680A1ECE8EB000FFDEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05867E21ECE8EAF00FFDEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05867F61ECE8EAF00FFDEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05868011ECE8EB000FFDEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D05867DC1ECE8EAF00FFDEDF = {
+			isa = PBXGroup;
+			children = (
+				D05867E71ECE8EAF00FFDEDF /* Bell Mare */,
+				D05867FC1ECE8EAF00FFDEDF /* Bell MareTests */,
+				D05868071ECE8EB000FFDEDF /* Bell MareUITests */,
+				D05867E61ECE8EAF00FFDEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D05867E61ECE8EAF00FFDEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05867E51ECE8EAF00FFDEDF /* Bell Mare.app */,
+				D05867F91ECE8EAF00FFDEDF /* Bell MareTests.xctest */,
+				D05868041ECE8EB000FFDEDF /* Bell MareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05867E71ECE8EAF00FFDEDF /* Bell Mare */ = {
+			isa = PBXGroup;
+			children = (
+				D05867E81ECE8EAF00FFDEDF /* AppDelegate.swift */,
+				D05867EA1ECE8EAF00FFDEDF /* ViewController.swift */,
+				D05867EC1ECE8EAF00FFDEDF /* Main.storyboard */,
+				D05867EF1ECE8EAF00FFDEDF /* Assets.xcassets */,
+				D05867F11ECE8EAF00FFDEDF /* LaunchScreen.storyboard */,
+				D05867F41ECE8EAF00FFDEDF /* Info.plist */,
+			);
+			path = "Bell Mare";
+			sourceTree = "<group>";
+		};
+		D05867FC1ECE8EAF00FFDEDF /* Bell MareTests */ = {
+			isa = PBXGroup;
+			children = (
+				D05867FD1ECE8EAF00FFDEDF /* Bell_MareTests.swift */,
+				D05867FF1ECE8EB000FFDEDF /* Info.plist */,
+			);
+			path = "Bell MareTests";
+			sourceTree = "<group>";
+		};
+		D05868071ECE8EB000FFDEDF /* Bell MareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D05868081ECE8EB000FFDEDF /* Bell_MareUITests.swift */,
+				D058680A1ECE8EB000FFDEDF /* Info.plist */,
+			);
+			path = "Bell MareUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05867E41ECE8EAF00FFDEDF /* Bell Mare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D058680D1ECE8EB000FFDEDF /* Build configuration list for PBXNativeTarget "Bell Mare" */;
+			buildPhases = (
+				D05867E11ECE8EAF00FFDEDF /* Sources */,
+				D05867E21ECE8EAF00FFDEDF /* Frameworks */,
+				D05867E31ECE8EAF00FFDEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bell Mare";
+			productName = "Bell Mare";
+			productReference = D05867E51ECE8EAF00FFDEDF /* Bell Mare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D05867F81ECE8EAF00FFDEDF /* Bell MareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05868101ECE8EB000FFDEDF /* Build configuration list for PBXNativeTarget "Bell MareTests" */;
+			buildPhases = (
+				D05867F51ECE8EAF00FFDEDF /* Sources */,
+				D05867F61ECE8EAF00FFDEDF /* Frameworks */,
+				D05867F71ECE8EAF00FFDEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05867FB1ECE8EAF00FFDEDF /* PBXTargetDependency */,
+			);
+			name = "Bell MareTests";
+			productName = "Bell MareTests";
+			productReference = D05867F91ECE8EAF00FFDEDF /* Bell MareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D05868031ECE8EB000FFDEDF /* Bell MareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05868131ECE8EB000FFDEDF /* Build configuration list for PBXNativeTarget "Bell MareUITests" */;
+			buildPhases = (
+				D05868001ECE8EB000FFDEDF /* Sources */,
+				D05868011ECE8EB000FFDEDF /* Frameworks */,
+				D05868021ECE8EB000FFDEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05868061ECE8EB000FFDEDF /* PBXTargetDependency */,
+			);
+			name = "Bell MareUITests";
+			productName = "Bell MareUITests";
+			productReference = D05868041ECE8EB000FFDEDF /* Bell MareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05867DD1ECE8EAF00FFDEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = diuappcontest;
+				TargetAttributes = {
+					D05867E41ECE8EAF00FFDEDF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D05867F81ECE8EAF00FFDEDF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D05867E41ECE8EAF00FFDEDF;
+					};
+					D05868031ECE8EB000FFDEDF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D05867E41ECE8EAF00FFDEDF;
+					};
+				};
+			};
+			buildConfigurationList = D05867E01ECE8EAF00FFDEDF /* Build configuration list for PBXProject "Bell Mare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05867DC1ECE8EAF00FFDEDF;
+			productRefGroup = D05867E61ECE8EAF00FFDEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05867E41ECE8EAF00FFDEDF /* Bell Mare */,
+				D05867F81ECE8EAF00FFDEDF /* Bell MareTests */,
+				D05868031ECE8EB000FFDEDF /* Bell MareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05867E31ECE8EAF00FFDEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05867F31ECE8EAF00FFDEDF /* LaunchScreen.storyboard in Resources */,
+				D05867F01ECE8EAF00FFDEDF /* Assets.xcassets in Resources */,
+				D05867EE1ECE8EAF00FFDEDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05867F71ECE8EAF00FFDEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05868021ECE8EB000FFDEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05867E11ECE8EAF00FFDEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05867EB1ECE8EAF00FFDEDF /* ViewController.swift in Sources */,
+				D05867E91ECE8EAF00FFDEDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05867F51ECE8EAF00FFDEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05867FE1ECE8EAF00FFDEDF /* Bell_MareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05868001ECE8EB000FFDEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05868091ECE8EB000FFDEDF /* Bell_MareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D05867FB1ECE8EAF00FFDEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05867E41ECE8EAF00FFDEDF /* Bell Mare */;
+			targetProxy = D05867FA1ECE8EAF00FFDEDF /* PBXContainerItemProxy */;
+		};
+		D05868061ECE8EB000FFDEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05867E41ECE8EAF00FFDEDF /* Bell Mare */;
+			targetProxy = D05868051ECE8EB000FFDEDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D05867EC1ECE8EAF00FFDEDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05867ED1ECE8EAF00FFDEDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D05867F11ECE8EAF00FFDEDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05867F21ECE8EAF00FFDEDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D058680B1ECE8EB000FFDEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D058680C1ECE8EB000FFDEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D058680E1ECE8EB000FFDEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bell Mare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrendzinc.Bell-Mare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D058680F1ECE8EB000FFDEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bell Mare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrendzinc.Bell-Mare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D05868111ECE8EB000FFDEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bell MareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrendzinc.Bell-MareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bell Mare.app/Bell Mare";
+			};
+			name = Debug;
+		};
+		D05868121ECE8EB000FFDEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bell MareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrendzinc.Bell-MareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bell Mare.app/Bell Mare";
+			};
+			name = Release;
+		};
+		D05868141ECE8EB000FFDEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Bell MareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrendzinc.Bell-MareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Bell Mare";
+			};
+			name = Debug;
+		};
+		D05868151ECE8EB000FFDEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Bell MareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrendzinc.Bell-MareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Bell Mare";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05867E01ECE8EAF00FFDEDF /* Build configuration list for PBXProject "Bell Mare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D058680B1ECE8EB000FFDEDF /* Debug */,
+				D058680C1ECE8EB000FFDEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D058680D1ECE8EB000FFDEDF /* Build configuration list for PBXNativeTarget "Bell Mare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D058680E1ECE8EB000FFDEDF /* Debug */,
+				D058680F1ECE8EB000FFDEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D05868101ECE8EB000FFDEDF /* Build configuration list for PBXNativeTarget "Bell MareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05868111ECE8EB000FFDEDF /* Debug */,
+				D05868121ECE8EB000FFDEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D05868131ECE8EB000FFDEDF /* Build configuration list for PBXNativeTarget "Bell MareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05868141ECE8EB000FFDEDF /* Debug */,
+				D05868151ECE8EB000FFDEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05867DD1ECE8EAF00FFDEDF /* Project object */;
+}
